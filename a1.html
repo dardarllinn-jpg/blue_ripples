@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>115570062趙珍萍</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+</head>
+
+<body>
+  <div id="main">	
+    <div id="site_content">  
+	  <div id="menubar">
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="current"><a href="index.html">首頁</a></li>
+          <li><a href="a1.html">第1題</a></li>
+          <li><a href="a2.html">第2題</a></li>
+          <li><a href="a3.html">第3題</a></li>
+          <li><a href="a4.html">第4題</a></li>
+        </ul>
+	  </div><!--close menubar-->
+      <div id="header">  
+        <h1>115570062趙珍萍</h1>	
+	    <h2></h2>
+      </div><!--close header-->	
+	  <div id="banner_image">
+	    <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/slide1.jpg" alt="" />
+            <img src="images/slide2.jpg" alt="" />
+            <img src="images/slide3.jpg" alt="" />
+		  </div><!--close slider-->
+		</div><!--close slider-wrapper-->
+	  </div><!--close banner_image-->		  
+      <div id="content">
+        <div class="content_item">
+        <button onclick="showName()" style="background-color: yellow; font-size: 30pt; font-family: 標楷體; color: black;">姓名</button>
+        <button onclick="showId()" style="background-color: yellow; font-size: 30pt; font-family: 標楷體; color: black;">學號</button>
+        <button onclick="clearText()" style="background-color: yellow; font-size: 30pt; font-family: 標楷體; color: black;">刪除</button>
+
+<br><br>
+<span id="display"></span>
+
+<script>
+  function showName() {
+    var el = document.getElementById("display");
+    el.innerHTML = "[趙珍萍]";
+    el.style.backgroundColor = "yellow";
+    el.style.fontSize = "50pt";
+    el.style.fontFamily = "標楷體";
+    el.style.color = "red";
+    el.style.fontWeight = "bold";
+  }
+
+  function showId() {
+    var el = document.getElementById("display");
+    el.innerHTML = "[115570062]";
+    el.style.backgroundColor = "pink";
+    el.style.fontSize = "50pt";
+    el.style.fontFamily = "標楷體";
+    el.style.color = "purple";
+    el.style.fontWeight = "bold";
+  }
+
+  function clearText() {
+    var el = document.getElementById("display");
+    el.innerHTML = "";
+  }
+</script>
+		</div><!--close content_item-->	
+	      
+		<div class="sidebar_container">   		  
+		  <div class="sidebar">
+            <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->     		
+		  <div class="sidebar">
+            <div class="sidebar_item">
+              <h2>Latest Blog</h2>
+		  	  <h4>April 2012</h4>
+              <p>lorem ipsum dolor sit amet...</p>
+		        <a href="#">Read more</a>
+            </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->  
+		  <div class="sidebar">
+            <div class="sidebar_item">
+              <h2>Latest Blog</h2>
+			  <h4>April 2012</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		        <a href="#">Read more</a>
+            </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->  
+        </div><!--close sidebar_container-->	
+       <br style="clear:both;" />
+      </div><!--close content-->	
+    </div><!--close site_content-->	
+    <div id="footer">  
+     版權所有 2023 by 115570062趙珍萍
+    </div><!--close footer-->	
+  </div><!--close main-->	
+</body>
+</html>
